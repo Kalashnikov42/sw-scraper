@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sw-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Alok Desai <alokdesai2004@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+supabase = "^2.4.0"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
